@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+/*------------------small devices-----------------*/
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: gray;
+    }
+    #page__wrapper{
+        display: grid;
+        grid-template-rows: 25vh 40vh 20vh 5vh 10vh;
+        grid-template-columns: 1fr ;
+        gap: 12px;
+        grid-template-areas: "head"
+                             "image"
+                              "main"
+                              "nav" 
+                              "side";
+                              
+                            
+
+    }
+    #head {
+    grid-area: head;
+    }
+   #Tech {
+       background-size: contain;
+       width: 100vw;
+       height:25vh;
+   }
+    #img_container {
+    grid-area: image;
+    }
+    #Girl{
+     border-radius: 10px;
+     width :30vw;
+     height: 30vh;
+    }
+    #main_nav {
+    grid-area: nav;
+
+    }
+    #main_nav li {
+        list-style: none;
+        display: inline;
+    }
+    #main_container {
+    grid-area: main;
+
+    }
+    #Main-Text {
+        color: rgb(134, 32, 83);
+        font-size: 1rem;
+        
+    }
+    #right_side {
+        grid-area: side;
+        
+    }
+    #side-Text {
+        color: rgb(88, 43, 69);
+        font-size: 1rem;
+    }
+    
+   
+
+
+}
+/*------------------tablet devices----------------*/
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: gray;
+    }
+    #page__wrapper{
+        display: grid;
+        grid-template-rows: 35vh 25vh 20vh 10vh 10vh;
+        grid-template-columns: 1fr ;
+        gap: 12px;
+        grid-template-areas: "head"
+                             "image"
+                              "main"
+                              "nav" 
+                              "side";
+                              
+                            
+
+    }
+    #head {
+    grid-area: head;
+    }
+   #Tech {
+       background-size: contain;
+       width: 100vw;
+       height:35vh;
+   }
+    #img_container {
+    grid-area: image;
+    }
+    #Girl{
+     border-radius: 10px;
+     width :15vw;
+     height: 25vh;
+    }
+    #main_nav {
+    grid-area: nav;
+
+    }
+    #main_nav li {
+        list-style: none;
+        display: inline;
+    }
+    #main_container {
+    grid-area: main;
+
+    }
+    #Main-Text {
+        color: rgb(134, 32, 83);
+        font-size: 1.5rem;
+    }
+    #right_side {
+        grid-area: side;
+        
+    }
+    #side-Text {
+        color: rgb(88, 43, 69);
+        font-size: 1.5rem;
+    }
+    
+   
+
+}
+   
+
+/*------------------pc devices--------------------*/
+@media only screen and (min-width: 1000px) {
+
+}
