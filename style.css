@@ -6,11 +6,12 @@
 /*------------------small devices-----------------*/
 @media only screen and (max-width: 767px) {
     body {
-        background-color: gray;
+        background-image: url("https://cdn.shopify.com/s/files/1/0500/6165/products/ashersamp_15309954-5c04-4acb-a1cd-807a175a77e4_600x.jpeg?v=1571438779");
+        background-size: cover;
     }
     #page__wrapper{
         display: grid;
-        grid-template-rows: 25vh 40vh 20vh 5vh 10vh;
+        grid-template-rows: 25vh 30vh 22vh 10vh 13vh;
         grid-template-columns: 1fr ;
         gap: 12px;
         grid-template-areas: "head"
@@ -34,8 +35,8 @@
     grid-area: image;
     }
     #Girl{
-     border-radius: 10px;
-     width :30vw;
+     border-radius: 30px;
+     width :20vw;
      height: 30vh;
     }
     #main_nav {
@@ -53,7 +54,8 @@
     #Main-Text {
         color: rgb(134, 32, 83);
         font-size: 1rem;
-        
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     }
     #right_side {
         grid-area: side;
@@ -62,8 +64,11 @@
     #side-Text {
         color: rgb(88, 43, 69);
         font-size: 1rem;
-    }
-    
+        font-style: italic;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+     }
+   
    
 
 
@@ -71,18 +76,20 @@
 /*------------------tablet devices----------------*/
 @media only screen and (min-width: 768px) {
     body {
-        background-color: gray;
+        background-image: url("https://cdn.shopify.com/s/files/1/0500/6165/products/ashersamp_15309954-5c04-4acb-a1cd-807a175a77e4_600x.jpeg?v=1571438779");
+        width: 100%;
+        height: 100vh;
     }
     #page__wrapper{
         display: grid;
-        grid-template-rows: 35vh 25vh 20vh 10vh 10vh;
-        grid-template-columns: 0.5fr  0.5fr ;
-        gap: 12px;
+        grid-template-rows: 28vh 10vh 32vh 15vh 15vh;
+        grid-template-columns: 1fr  1fr ;
+        gap: 0;
         grid-template-areas: "head image"
                              "head  image"
                               "head  main"
-                              "nav    nav" 
-                              " side  side";
+                              "head  nav" 
+                              " side side";
                               
                             
 
@@ -92,8 +99,9 @@
     }
    #Tech {
        background-size: contain;
-       width: 80vw;
-       height:100%;
+       width: 100%;
+       height : 85vh;
+       border-radius: 8px;
    }
     #img_container {
     grid-area: image;
@@ -101,11 +109,11 @@
     #Girl{
      border-radius: 10px;
      width :15vw;
-     height: 25vh;
+     height: 30vh;
     }
     #main_nav {
     grid-area: nav;
-
+    
     }
     #main_nav li {
         list-style: none;
@@ -117,15 +125,21 @@
     }
     #Main-Text {
         color: rgb(134, 32, 83);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     #right_side {
         grid-area: side;
         
+        
     }
     #side-Text {
         color: rgb(88, 43, 69);
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        margin: 35px 0px 0px 0px;
+        font-style: italic;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     }
     
    
