@@ -76,13 +76,13 @@
     #page__wrapper{
         display: grid;
         grid-template-rows: 35vh 25vh 20vh 10vh 10vh;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 0.5fr  0.5fr ;
         gap: 12px;
-        grid-template-areas: "head"
-                             "image"
-                              "main"
-                              "nav" 
-                              "side";
+        grid-template-areas: "head image"
+                             "head  image"
+                              "head  main"
+                              "nav    nav" 
+                              " side  side";
                               
                             
 
@@ -92,8 +92,8 @@
     }
    #Tech {
        background-size: contain;
-       width: 100vw;
-       height:35vh;
+       width: 80vw;
+       height:100%;
    }
     #img_container {
     grid-area: image;
